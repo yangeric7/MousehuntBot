@@ -6,4 +6,7 @@ in order to avoid basic bot detection.
 I used this as practice to understand the basics of the Selenium Web Driver.
 
 I hope to also create functionality to answer the Kings Reward which is a captcha image to deter bots. I hope to use
-an image recognition library such as Tesseract-OCR. 
+an image recognition library such as Tesseract-OCR.
+
+To run this in the command line, run the command `python mhbot.py`
+This requires python 2.7 and also installing Selenium. 
