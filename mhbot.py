@@ -30,7 +30,12 @@ def soundHorn(driver):
 	horn = driver.find_element_by_class_name('mousehuntHud-huntersHorn')
 	horn.click()
 
-#def kingsReward(driver):
+def kingsReward(driver):
+	textField = driver.find_element_by_class_name('mousehuntPage-puzzle-form-code')
+	#TODO Captcha
+	claimBtn = driver.find_element_by_class_name('mousehuntPage-puzzle-form-code-button')
+	claimBtn.click()
+
 def createVariableDelay():
 	delay = random.randint(910, 1140)
 	return delay
